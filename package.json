@@ -1,0 +1,19 @@
+{
+  "name": "joplin2dendron",
+  "version": "0.1.0",
+  "description": "Helper to process imported Joplin notes in Dendron.",
+  "main": "dist/index.js",
+  "repository": "https://github.com/chmac/joplin2dendron.git",
+  "author": "Callum Macdonald",
+  "license": "AGPL-3.0-or-later",
+  "private": true,
+  "scripts": {
+    "watch-typescript": "ncc build --watch --out dist src/index.ts",
+    "start": "yarn watch-typescript",
+    "build": "ncc build --out dist src/index.ts"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.33.1",
+    "typescript": "^4.5.4"
+  }
+}
