@@ -1,8 +1,8 @@
 # joplin2dendron
 
-NOTE: This is FYI-open-source code. It's shared for your information, feel free
-to use / fork / update it to your heart's content. But do not expect free
-support, bug fixes, or otherwise.
+NOTE: This is **FYI-open-source code**. It's shared for your information, feel
+free to use / fork / update it to your heart's content. But **do not expect free
+support, bug fixes, or otherwise**.
 
 ## Usage
 
